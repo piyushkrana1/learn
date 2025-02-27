@@ -1,0 +1,1 @@
+# This is the README file for 06_api_gateway

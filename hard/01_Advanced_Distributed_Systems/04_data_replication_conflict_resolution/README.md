@@ -1,0 +1,1 @@
+# This is the README file for 04_data_replication_conflict_resolution

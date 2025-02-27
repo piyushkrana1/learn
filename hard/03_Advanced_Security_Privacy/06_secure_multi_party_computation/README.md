@@ -1,0 +1,1 @@
+# This is the README file for 06_secure_multi_party_computation

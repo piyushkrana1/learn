@@ -1,0 +1,1 @@
+# This is the README file for 01_data_partitioning_sharding_nosql

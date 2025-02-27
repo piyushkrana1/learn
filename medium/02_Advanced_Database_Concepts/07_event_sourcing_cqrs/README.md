@@ -1,0 +1,1 @@
+# This is the README file for 07_event_sourcing_cqrs

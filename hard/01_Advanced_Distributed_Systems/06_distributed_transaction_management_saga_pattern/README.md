@@ -1,0 +1,1 @@
+# This is the README file for 06_distributed_transaction_management_saga_pattern

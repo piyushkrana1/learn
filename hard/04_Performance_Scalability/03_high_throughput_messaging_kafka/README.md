@@ -1,0 +1,1 @@
+# This is the README file for 03_high_throughput_messaging_kafka

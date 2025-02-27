@@ -1,0 +1,1 @@
+# This is the README file for 05_distributed_caching_redis_cluster

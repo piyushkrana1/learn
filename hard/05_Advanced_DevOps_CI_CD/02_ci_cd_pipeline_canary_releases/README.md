@@ -1,0 +1,1 @@
+# This is the README file for 02_ci_cd_pipeline_canary_releases

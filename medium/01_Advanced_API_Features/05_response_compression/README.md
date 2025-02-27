@@ -1,0 +1,1 @@
+# This is the README file for 05_response_compression

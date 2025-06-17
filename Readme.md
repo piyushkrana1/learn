@@ -77,8 +77,6 @@ During the installation process, you can configure the following components (we 
 
 
 > **Prime customers** can obtain a full supportability review by opening a Rancher support case and sharing the generated review bundle.  
-You can also preview what a full report looks like by clicking the **View Sample Report** button.
-**[View Sample Report](https://suse.my.salesforce.com/sfc/p/#1i000000gLOd/a/Tr00000EFJwk/2gpLmKqcybjI6R_YjwtXwx4qNnKFsOSTmf8SNQvQLbQ)** button.
 You can also preview what a full report looks like by clicking the **[View Sample Report](https://suse.my.salesforce.com/sfc/p/#1i000000gLOd/a/Tr00000EFJwk/2gpLmKqcybjI6R_YjwtXwx4qNnKFsOSTmf8SNQvQLbQ)** link.
 
 ---

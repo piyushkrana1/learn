@@ -1,4 +1,4 @@
-# 🧩 Supportability Review - Rancher Extension
+# Supportability Review - Rancher Extension
 
 The **Supportability Review** (SR) extension helps proactively validate your Kubernetes cluster configuration and environment to ensure it's production-ready and support-aligned.
 
@@ -69,12 +69,12 @@ During the installation process, you can configure the following components (we 
 
   #### a. Basic Tab
   - Enter a custom bundle name (default: `review-bundle`).
-
+![Alt text](/image/create-review.png)
   #### b. Advanced Tab
   - Change the namespace for Sonobuoy.
   - Add node tolerations.
   - Write a bundle description.
-![Alt text](/image/create-review.png)
+
 
 > **Prime customers** can obtain a full supportability review by opening a Rancher support case and sharing the generated review bundle.  
 You can also preview what a full report looks like by clicking the **View Sample Report** button.

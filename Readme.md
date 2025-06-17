@@ -12,7 +12,7 @@ It provides:
 
 ## Installation Guide
 
-Follow the steps below to install the Supportability Review extension inside Rancher:
+Follow the steps below to install the Supportability Review extension inside Rancher UI:
 
 ### 1. Open Extensions Menu
 
@@ -28,12 +28,13 @@ Follow the steps below to install the Supportability Review extension inside Ran
 - Wait a few seconds while the repository syncs.
 - You will now see the **Supportability Review** extension listed.
 
+![Alt text](/image/add-extension-repo.png)
 ### 3. Install the Extension
 
 - Click on the **Supportability Review** entry.
 - Click the **Install** button.
-![Alt text](/image/supportability-extension-install.png)
-Once installed, a new **"Cattle-Men" icon** will appear in the Rancher side menu.
+
+Once installed, a new **"Cattle-Men" icon** will appear in the side menu.
 
 ---
 
@@ -54,6 +55,8 @@ During the installation process, you can configure the following components (we 
 - **Resource Limits**: Customize CPU/Memory requests and limits for pods.
 
 ![Alt text](/image/install-supportability-operator.png)
+
+![Alt text](/image/collector-config.png)
 
 ---
 

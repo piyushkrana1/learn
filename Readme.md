@@ -75,6 +75,7 @@ During the installation process, you can configure the following components (we 
   - Add node tolerations.
   - Write a bundle description.
 
+> we recommend keeping the default values
 
 > **Prime customers** can obtain a full supportability review by opening a Rancher support case and sharing the generated review bundle.  
 You can also preview what a full report looks like by clicking the **[View Sample Report](https://suse.my.salesforce.com/sfc/p/#1i000000gLOd/a/Tr00000EFJwk/2gpLmKqcybjI6R_YjwtXwx4qNnKFsOSTmf8SNQvQLbQ)** link.
@@ -89,13 +90,12 @@ You can also preview what a full report looks like by clicking the **[View Sampl
     - Number of clusters
     - Number of passed checks
     - Bundle size
-
+![Alt text](/image/completed-review-sidebar.png)
 - Click on the bundle name to view a detailed visual report of your local cluster.
 - On the right side of each bundle entry, click the **three-dot menu (⋮)** to:
   - **Download** the bundle
   - **View** the report
-![Alt text](/image/completed-review-sidebar.png)
-You can also obtain a full supportability review by opening a Rancher support case and attaching the generated review bundle.
+![Alt text](/image/review-visual-report.png)
 ---
 
 ## Feedback & Issues

@@ -30,7 +30,7 @@ Follow the steps below to install the Supportability Review extension inside Ran
 ### 3. Install the Extension
 
 - Click on the **Supportability Review** entry.
-- Click the **Install** button.
+- Click the `Install` button.
 
 Once installed, a new **"Cattleman" icon** will appear in the side menu.
 
@@ -44,7 +44,7 @@ Once installed, a new **"Cattleman" icon** will appear in the side menu.
 - Press the button: `Add Supportability Review Operator Repository`.
 - Then click `Install Supportability Review Operator`.
 ![Dashboard view to add repo](./pkg/supportability-review-app/images/readme/dashboard-add-operator-repo.png)
-During the installation process, you can configure the following components (we recommend keeping the default settings):
+During the installation process, you can configure the following components (We recommend keeping the default settings):
 
 - **Images**: Repository details for collector and analyzer images.
 - **Collector Configuration**: CPU, memory limits for the collector container.
@@ -59,7 +59,7 @@ During the installation process, you can configure the following components (we 
 
 ### 5. Create a Review Bundle
 
-- Click the **"Get Started"** button from the Dashboard to begin creating your first review report.
+- Click the `Get Started` button from the Dashboard to begin creating your first review report.
 - You will be redirected to the **Create Review** page with two tabs:
 
   #### a. Basic Tab
@@ -96,7 +96,7 @@ You can also preview what a full report looks like by clicking the **[View Sampl
 
 ## Feedback & Issues
 
-If you encounter any bugs, installation issues, or have suggestions for improvement,please [open an issue](https://github.com/rancher/supportability-review-app/issues) in this repository.
+If you encounter any bugs, installation issues, or have suggestions for improvement, please [open an issue](https://github.com/rancher/supportability-review-app/issues) in this repository.
 
 For further assistance, including detailed results, remediations, or a full supportability review, feel free to contact us at:
  **ranchersupportnow@suse.com**

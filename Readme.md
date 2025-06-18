@@ -23,7 +23,7 @@ Follow the steps below to install the Supportability Review extension inside Ran
 ### 2. Add Rancher Repositories
 
 - Click the **three dots** (⋮) on the extensions page.
-- Select **"Add Rancher Repositories"**.
+- Select **Add Rancher Repositories**.
 - Wait a few seconds while the repository syncs.
 - You will now see the **Supportability Review** extension listed.
 ![Add extension menu](./pkg/supportability-review-app/images/readme/add-extension-repo.png)
@@ -32,7 +32,7 @@ Follow the steps below to install the Supportability Review extension inside Ran
 - Click on the **Supportability Review** entry.
 - Click the `Install` button.
 
-Once installed, a new **"Cattleman" icon** will appear in the side menu.
+Once installed, a new **Cattleman icon** will appear in the side menu.
 
 ---
 

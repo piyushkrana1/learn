@@ -18,8 +18,7 @@ Follow the steps below to install the Supportability Review extension inside Ran
 
 - Navigate to the **bottom-left hamburger menu** in the Rancher UI.
 - Click on **Extensions → Available / All Extensions**.
-
-![Alt text](/image/hamburger-extension-icon.png)
+![Hamburger menu icon](./pkg/supportability-review-app/images/readme/hamburger-extension-icon.png)
 
 ### 2. Add Rancher Repositories
 
@@ -27,14 +26,13 @@ Follow the steps below to install the Supportability Review extension inside Ran
 - Select **"Add Rancher Repositories"**.
 - Wait a few seconds while the repository syncs.
 - You will now see the **Supportability Review** extension listed.
-
-![Alt text](/image/add-extension-repo.png)
+![Add extension menu](./pkg/supportability-review-app/images/readme/add-extension-repo.png)
 ### 3. Install the Extension
 
 - Click on the **Supportability Review** entry.
 - Click the **Install** button.
 
-Once installed, a new **"Cattle-Men" icon** will appear in the side menu.
+Once installed, a new **"Cattleman" icon** will appear in the side menu.
 
 ---
 
@@ -45,18 +43,15 @@ Once installed, a new **"Cattle-Men" icon** will appear in the side menu.
 - Click the **Supportability Review (SR) icon** in the sidebar.
 - Press the button: `Add Supportability Review Operator Repository`.
 - Then click `Install Supportability Review Operator`.
-
-![Alt text](/image/dashboard-add-operator-repo.png)
+![Dashboard view to add repo](./pkg/supportability-review-app/images/readme/dashboard-add-operator-repo.png)
 During the installation process, you can configure the following components (we recommend keeping the default settings):
 
-- **Collector Configuration**: Choose container images and resources for data collection.
-- **Analyzer Configuration**: Set analyzer image and thresholds.
-- **Redis Configuration**: Redis image, memory, and persistence options.
-- **Resource Limits**: Customize CPU/Memory requests and limits for pods.
-
-![Alt text](/image/install-supportability-operator.png)
-
-![Alt text](/image/collector-config.png)
+- **Images**: Repository details for collector and analyzer images.
+- **Collector Configuration**: CPU, memory limits for the collector container.
+- **Analyzer Configuration**: CPU, memory limits for the analyzer container.
+- **Redis Configuration**: CPU, memory, and ephemeral storage limits for the Redis container.
+![Install view for SR operator](./pkg/supportability-review-app/images/readme/install-supportability-operator.png)
+![Collector configuration during install](./pkg/supportability-review-app/images/readme/collector-config.png)
 
 ---
 
@@ -69,7 +64,7 @@ During the installation process, you can configure the following components (we 
 
   #### a. Basic Tab
   - Enter a custom bundle name (default: `review-bundle`).
-![Alt text](/image/create-review.png)
+![Create view](./pkg/supportability-review-app/images/readme/create-review.png)
   #### b. Advanced Tab
   - Change the namespace for Sonobuoy.
   - Add node tolerations.
@@ -90,12 +85,13 @@ You can also preview what a full report looks like by clicking the **[View Sampl
     - Number of clusters
     - Number of passed checks
     - Bundle size
-![Alt text](/image/completed-review-sidebar.png)
-- Click on the bundle name to view a detailed visual report of your local cluster.
+![ReviewBundle sidebar options](./pkg/supportability-review-app/images/readme/completed-review-sidebar.png)
+
 - On the right side of each bundle entry, click the **three-dot menu (⋮)** to:
   - **Download** the bundle
   - **View** the report
-![Alt text](/image/review-visual-report.png)
+- Click on the bundle name or select View Report from the **three-dot menu (⋮)** to view a detailed visual report of your local cluster.
+![Review report visualization](./pkg/supportability-review-app/images/readme/review-visual-report.png)
 ---
 
 ## Feedback & Issues
